@@ -4,14 +4,15 @@ This is a tutorial on Planar Flows and their generalization to Sylvester Flows f
 
 Author: Bobby robert.bridges@ai.se 
 
+A few slides are here: https://docs.google.com/presentation/d/11r8P696WUBZubXXUJ8eGihV5Ji42xbBt/edit?usp=sharing&ouid=103663031827858753966&rtpof=true&sd=true 
 
 ## Repo Contents
 ├── README.md ## this file!
 ├── Ctrl-Allt-Dela-NF-talk-notes.pdf # remarkable tablet notes
-├── learn_sylvester_flows.ipynb # this notebook implements a sylvester flow. do it after the planar flows
-├── maf_nf.ipynb # this notebook implements a masked autoregressive flow 
+├── learn_sylvester_flows.ipynb # this notebook implements a sylvester flow for sampling from an improper density. do it after the planar flows
+├── maf_nf.ipynb # this notebook implements a masked autoregressive flow for synthesizing data 
 ├── normalizing_flows.py # these are PyTorch classes of flows that are imported by the planer and sylvester flows notebooks
-├── planar_nf.ipynb # this notebook implements a planar flow
+├── planar_nf.ipynb # this notebook implements a planar flow for sampling from an improper density
 ├── plotting_utils.py # thes are functions imported by the notebooks to plot stuff
 └── talk_info.md # talk abstract and references
 
